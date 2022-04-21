@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box;
+}
+.fondo{
+  background-image: url("../images/bg-p1.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.fondo2{
+  background-image: url("../images/bg-Latesthp2.png");
+  float:left;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/*columnas de index*/
+.form{
+  display:grid;
+  grid-template-columns: 1fr 1fr;/*numero de columnas*/
+  column-gap: 1rem;/*margen entre columnas*/
+  margin: 1rem 1rem;
+  padding-top:3rem ;
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+/*contenedor para carrusel*/
+.contenedor {
+  padding-top: 15rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+  /*carrusel*/
+.carousel{
+  min-height: 500px;
+
+}
+/*carrusel galeria*/
+.carousel .carousel-item{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  width: 550px;
+  height: 500px;
+
+}
+.carousel .carousel-item img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.carousel .indicators .indicator-item{
+  border-radius: 0;
+  transform: rotate(45deg);
+  margin: 0 15px;
+
+
+}
+.galeria{
+  padding-top:45rem ;
+}
